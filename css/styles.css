@@ -7,6 +7,10 @@
 .text-align-center{
     text-align: center;
 }
+
+/*
+    introduction
+*/
 .intro{
     width: 30%;
     margin: auto ;
@@ -28,3 +32,48 @@
     color: red;
     font-size: 1.5rem;
 }
+
+
+/*
+    social
+*/
+
+.social{
+    width: 30%;
+    height: 100px;
+    margin: auto ;
+    margin-top: 20px;
+    padding: 20px;
+}
+.social ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   
+
+
+}
+.social ul li {
+   margin-left: 30px;
+
+
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.social ul li a  {
+    position: relative;
+    top: 40px;
+}
+
+.social ul li a i  {
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+
+}
+
