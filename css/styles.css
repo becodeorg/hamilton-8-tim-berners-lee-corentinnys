@@ -148,7 +148,9 @@ articles
 }
 
 
-
+/*
+    responsive
+*/
 @media screen and (max-width: 480px) {
 
 }
@@ -156,10 +158,28 @@ articles
 @media screen and (min-width: 480px)
 and (max-width: 768px){
 
+    /*
+        intro
+    */
+    .intro{
+        width: 100%;
+    }
+    .intro p {
+        width: 90%;
+    }
+
 }
 @media screen and (min-width: 768px)
 and (max-width: 1024px){
-
+    /*
+    intro
+*/
+    .intro{
+        width: 50%;
+    }
+    .intro p {
+        width: 100%;
+    }
 }
 
 
