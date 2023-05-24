@@ -15,10 +15,14 @@
     introduction
 */
 
+main{
+    padding: 20px;
+}
+
 .intro{
     width: 30%;
-    margin: auto ;
     padding: 20px;
+    margin: auto;
 }
 
 .intro figure img{
