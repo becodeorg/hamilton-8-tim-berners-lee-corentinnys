@@ -7,6 +7,9 @@
 .text-align-center{
     text-align: center;
 }
+.openSans-family{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*
     introduction
@@ -32,6 +35,9 @@
     color: red;
     font-size: 1.5rem;
 }
+.intro p{
+    text-align: justify;
+}
 
 
 /*
@@ -40,26 +46,26 @@
 
 .social{
     width: 30%;
-    height: 100px;
+    min-height: 100px;
     margin: auto ;
     margin-top: 20px;
     padding: 20px;
 }
 .social ul{
     padding: 0;
-    margin: 0;
-    list-style: none;
+    /*margin: 0;*/
+    width: 100%;
+    list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
 
 
 
 }
-.social ul li {
-   margin-left: 30px;
 
-
-}
 
 .social ul li a {
     text-decoration: none;
