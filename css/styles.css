@@ -1,0 +1,30 @@
+.bg-gray{
+    background: gray;
+}
+.bg-white{
+    background: white;
+}
+.text-align-center{
+    text-align: center;
+}
+.intro{
+    width: 30%;
+    margin: auto ;
+    padding: 20px;
+}
+.intro figure img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.intro a {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.intro h1{
+    color: red;
+    font-size: 1.5rem;
+}
