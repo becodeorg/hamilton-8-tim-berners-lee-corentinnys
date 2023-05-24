@@ -6,16 +6,16 @@ create an images folder
 add a project description to the README.md
 add a link to the github page in the README.md
 download the pictures below into the images folder
-##HTML
+## HTML
  - write the index.html
   - implement the icons
 - the result must look like the image below
-##CSS
+## CSS
 - write the style.css
 - separate the elements into different blocks
 - implement the open sans font
  - the result must look like the image below
-##Git
+## Git
 - commit/push
  -deploy on a Github page
 link
