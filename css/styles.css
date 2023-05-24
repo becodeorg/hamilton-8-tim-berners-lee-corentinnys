@@ -30,6 +30,16 @@
     text-decoration: none;
     padding: 7px;
     border-radius: 5px;
+    border-bottom: 5px solid firebrick;
+    transition: all 0.1s;
+}
+
+
+
+.intro a:active{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
 }
 
 .intro h1{
@@ -111,6 +121,9 @@ articles
     height: 100px;
     width: 70px;
 }
+
+
+
 .articles article  {
     display: flex;
 }
