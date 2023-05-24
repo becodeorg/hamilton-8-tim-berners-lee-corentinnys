@@ -14,11 +14,13 @@
 /*
     introduction
 */
+
 .intro{
     width: 30%;
     margin: auto ;
     padding: 20px;
 }
+
 .intro figure img{
     border-radius: 50%;
     height: 100px;
@@ -112,20 +114,28 @@ articles
     margin: auto ;
     margin-top: 20px;
     padding: 20px;
+
 }
 .articles h1{
     color: gray;
 }
 
+
 .articles article figure img{
-    height: 100px;
-    width: 70px;
+    height: 160px;
+    width: 120px;
 }
 
 
 
 .articles article  {
     display: flex;
+    margin-bottom: 20px;
+
+}
+.articles figure{
+    margin: 0;
+    margin-right: 10px;
 }
 .articles article h2,.articles article p{
     color: gray;
