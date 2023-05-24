@@ -51,7 +51,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-   
+
 
 
 }
@@ -76,4 +76,39 @@
     left: 20px;
 
 }
+
+/*
+articles
+*/
+
+.articles{
+    width: 30%;
+    margin: auto ;
+    margin-top: 20px;
+    padding: 20px;
+}
+.articles h1{
+    color: gray;
+}
+
+.articles article figure img{
+    height: 100px;
+    width: 70px;
+}
+.articles article  {
+    display: flex;
+}
+.articles article h2,.articles article p{
+    color: gray;
+    font-size: 14px;
+
+}
+.articles article h2{
+    text-align: center;
+}
+.articles article p{
+    text-align: justify;
+}
+
+
 
