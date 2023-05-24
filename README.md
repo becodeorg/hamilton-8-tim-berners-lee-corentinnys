@@ -1,11 +1,11 @@
 
-Tim Berners-Lee
-Mission Objectives
-create the repository
-create an images folder
-add a project description to the README.md
-add a link to the github page in the README.md
-download the pictures below into the images folder
+# Tim Berners-Lee
+## Mission Objectives
+- create the repository
+- create an images folder
+- add a project description to the README.md
+- add a link to the github page in the README.md
+- download the pictures below into the images folder
 ## HTML
  - write the index.html
   - implement the icons
